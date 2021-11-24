@@ -33,7 +33,7 @@ prediction = accuracy_score(dataframe_submit['label'], y_pred)
 print(prediction)
 '''
 
-# Read the data
+# Read the data CAREFULLY
 dataframe = pandas.read_csv("data/news.csv")
 
 
